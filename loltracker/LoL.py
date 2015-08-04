@@ -1,2 +1,2 @@
-API_KEY = 'API-KEY'
-PLAYERIDS = ['Player1', 'Player2']
+API_KEY = ''
+PLAYERIDS = ['']
