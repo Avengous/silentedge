@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		  #twitch_stream	{
+		  width: 1000px;
+		  margin-left: auto;
+		  margin-right: auto;
+		  padding-top: 50px;}
+	</style>
+				
+	<div id="twitch_stream">
+		<object type="application/x-shockwave-flash" id="live_embed_player_flash" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=avengous" bgcolor="#000000" height="378" width="620">
+		<param name="allowFullScreen" value="true">
+		<param name="allowScriptAccess" value="always">
+		<param name="allowNetworking" value="all">
+		<param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf">
+		<param name="flashvars" value="hostname=www.twitch.tv&amp;channel=avengous&amp;auto_play=true&amp;start_volume=25">
+		</object>
+		
+		
+		<iframe scrolling="no" id="chat_embed" src="http://twitch.tv/chat/embed?channel=avengous&amp;popout_chat=true" frameborder="0" height="378" width="350">
+		</iframe>
+	</div>
+</html>
